@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/nav_bg" />
+
+        <ImageView
+            android:id="@+id/top_view_back"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/top_view_text"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        
+
+        <LinearLayout
+            android:id="@+id/top_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/filter_blue_btn"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/top_right_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="@string/topview_message"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        
+    </FrameLayout>
+
+</LinearLayout>

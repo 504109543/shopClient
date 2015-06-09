@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+    
+    <!-- title bar -->
+    <include 
+        layout="@layout/top_view"/>
+    
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpagertop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:id="@+id/custom_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="2.5dp"
+                android:paddingTop="2.5dp" >
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+    <com.lo.shop.view.TopIndicator
+        android:id="@+id/top_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </com.lo.shop.view.TopIndicator>  
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            android:orientation="vertical" > 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:layout_weight="1.0" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:padding="0.5dip" 
+          android:background="@color/divide"
+     >
+     <RelativeLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+         >
+        <ImageView     
+          android:id="@+id/ggv_img"   
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_centerHorizontal="true" 
+          android:layout_marginTop="5dip"   
+        />  
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ggv_img"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:id="@+id/xx" 
+            >
+		      <TextView
+		        android:id="@+id/ggv_sale"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"           
+		        android:textColor="@color/red"
+		        android:textSize="11sp" />
+		       <TextView
+		        android:id="@+id/line"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"           
+		        android:textColor="@color/gray"
+		        android:layout_toRightOf="@id/ggv_sale"
+		        android:text=" | "
+		        android:textSize="10dip" />
+		       <TextView
+		        android:id="@+id/ggv_discount"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"    
+		        android:layout_toRightOf="@id/line"
+		        android:textColor="@color/red"
+		        android:textSize="11dip" />   
+		        <TextView
+		        android:id="@+id/ggv_price"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:gravity="right"  
+		        android:layout_toRightOf="@id/ggv_discount"
+		        android:textColor="@color/red"
+		        android:textSize="11dip"             
+		        />  
+        </RelativeLayout>
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:singleLine="false"
+            android:id="@+id/ggv_title"
+            android:layout_below="@id/xx"
+            android:textSize="10dip"
+            android:layout_marginBottom="10dip"
+            />
+       <TextView 
+        android:id="@+id/ggv_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"
+        />
+     </RelativeLayout>
+</RelativeLayout>

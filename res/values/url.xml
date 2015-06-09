@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_version">version</string>
+    <string name="url_addresslist">addresslist</string>
+    <string name="url_home">home</string>
+    <string name="url_addresssave">addresssave</string>
+    <string name="url_addressdelete">addressdelete</string>
+    <string name="url_addressdefault">addressdefault</string>
+    <string name="url_limitbuy">limitbuy</string>
+
+    <string name="url_newproduct">newproduct</string>
+    <string name="url_hotproduct">hotproduct</string>
+    <string name="url_brand">brand</string>
+
+    <string name="url_logout">logout</string>
+    <string name="url_cartdatasession">cartdatasession</string>
+    <string name="url_productcollect">product/collect</string>
+
+</resources> 

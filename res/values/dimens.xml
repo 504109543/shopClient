@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="dimen_100px">44.44dp</dimen>
+    <dimen name="dimen_120px">53.28dp</dimen>
+    <dimen name="dimen_30px">13.33dp</dimen>
+   
+    <dimen name="price_width">60dp</dimen>
+    <dimen name="price_height">20dp</dimen>
+    <dimen name="price_margin">18dp</dimen>
+    <dimen name="price_textsize">11sp</dimen>
+    
+    <dimen name="recomment_margin">2dp</dimen>
+    <dimen name="recomment_textsize">10sp</dimen>
+    <dimen name="recomment_width">26dp</dimen>
+    <dimen name="recomment_height">30dp</dimen>
+
+</resources>

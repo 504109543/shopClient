@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <!-- title bar -->
+
+    <include layout="@layout/top_view" />
+    
+    
+
+    <com.external.maxwin.view.XListView
+        android:id="@+id/profile_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+        android:divider="#00000000"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbars="none" >
+    </com.external.maxwin.view.XListView>
+
+</LinearLayout>
